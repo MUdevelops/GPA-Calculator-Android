@@ -1,78 +1,10 @@
-# 🎓 GPA Calculator Android
-
-A modern and easy-to-use **Android GPA Calculator** designed to help students calculate their grades and semester GPA quickly and accurately.
-
-This Android application is based on my GPA Calculator platform, **GPA786**.
-
-## 📱 Features
-
-* 🧮 Calculate grades for individual subjects
-* 📊 Calculate overall Semester GPA
-* ➕ Add multiple subjects
-* 📝 Enter marks according to course components
-* 🎯 Automatic grade calculation
-* 📱 Clean and user-friendly Android interface
-* ⚡ Fast and simple calculations
-
-## 🚀 How It Works
-
-1. Enter your subject details.
-2. Add marks for the required assessment components.
-3. The app calculates your subject grade automatically.
-4. Add multiple subjects for your semester.
-5. Calculate your overall Semester GPA.
-
-## 🛠️ Technologies Used
-
-* Kotlin
-* Android Studio
-* Android SDK
-* XML
-* Gradle
-
-## 📦 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/MUdevelops/GPA-Calculator-Android.git
-```
-
-Then:
-
-1. Open the project in **Android Studio**.
-2. Wait for Gradle synchronization to complete.
-3. Connect an Android device or start an emulator.
-4. Click **Run ▶️**.
-
-## 🎯 Project Goal
-
-The goal of this project is to provide students with a simple, fast, and accessible way to calculate their academic grades and GPA directly from their Android devices.
-
-## 🌐 Related Platform
-
-GPA Calculator Web Platform: GPA786
-
-## 🤝 Contributions
-
-Contributions, suggestions, and improvements are welcome. Feel free to fork this repository and submit a pull request.
-
-## 👨‍💻 Developer
-
-Developed by **M. Umar Jamal**
-
-Computer Science Student | Android Developer | Web Developer
-
-## 📄 License
-
-This project is created for educational and personal use.
 <div align="center">
 
 # 🎓 GPA Calculator Android
 
-**A modern, intuitive, and feature-packed Android application for calculating SGPA, CGPA, and managing academic performance history.**
+**A complete, easy-to-use Android application designed to help university students calculate their Semester GPA (SGPA), overall Cumulative GPA (CGPA), and track academic records.**
 
-Based on the official web platform **[GPA786](https://gpa786.com)**.
+This project is the official mobile companion app for the **[GPA786](https://gpa786.com)** web platform.
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9%2B-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
 [![Android SDK](https://img.shields.io/badge/Android%20SDK-24%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com)
@@ -82,59 +14,75 @@ Based on the official web platform **[GPA786](https://gpa786.com)**.
 
 ---
 
+## 📖 Detailed Overview
+
+Calculating academic grades manually can be confusing and prone to errors. University grading systems often rely on weighted averages across multiple evaluation methods—such as quizzes, assignments, midterm exams, and final exams. 
+
+**GPA Calculator Android** simplifies this entire process into a few quick taps. Designed with simple English and a clean user interface, this app allows students to accurately compute their performance for individual subjects, overall semester GPA, and cumulative CGPA without needing complex formulas.
+
+Whether you want to calculate your current semester standing, plan target grades for future semesters, or check official grading scale reference tables, this app gives you all the tools in one place.
+
+---
+
 ## 📱 App Screenshots
 
 <div align="center">
 
-| Splash Screen | Main Dashboard | Semester Result |
+| Splash Screen | Main Dashboard | Grade Result |
 | :-: | :-: | :-: |
-| <img src="screenshots/splash_screen.png" width="220" alt="Splash Screen"/> | <img src="screenshots/main_dashboard.png" width="220" alt="Main Dashboard"/> | <img src="screenshots/result.png" width="220" alt="Result"/> |
+| <img src="Screenshot/4.%20Splash%20Screen.png" width="220" alt="Splash Screen"/> | <img src="Screenshot/5.%20Main%20Dashboard.png" width="220" alt="Main Dashboard"/> | <img src="Screenshot/8.%20Result.png" width="220" alt="Result"/> |
 
-| CGPA Calculator | Academic Records | Grade Point Scale | Settings & Profile |
+| CGPA Calculator | Academic Records | Grade Point Chart | Settings & Profile |
 | :-: | :-: | :-: | :-: |
-| <img src="screenshots/cgpa_calculate.png" width="190" alt="CGPA Calculate"/> | <img src="screenshots/record.png" width="190" alt="Academic Records"/> | <img src="screenshots/grade_point.png" width="190" alt="Grade Point Scale"/> | <img src="screenshots/profile.png" width="190" alt="Profile Settings"/> |
+| <img src="Screenshot/6.%20CGPA%20Calculate.png" width="190" alt="CGPA Calculate"/> | <img src="Screenshot/9.%20Record.png" width="190" alt="Academic Records"/> | <img src="Screenshot/7.%20Grade%20Point.png" width="190" alt="Grade Point Scale"/> | <img src="Screenshot/10.%20Profile.png" width="190" alt="Profile Settings"/> |
 
 </div>
 
-> **Note:** Place your image files inside a `screenshots/` directory in your root project folder and rename them accordingly (e.g., `splash_screen.png`, `main_dashboard.png`, `result.png`, `cgpa_calculate.png`, `record.png`, `grade_point.png`, `profile.png`).
-
 ---
 
-## ✨ Features
+## ✨ Key Features Breakdown
 
-* 🧮 **SGPA Calculation:** Compute Semester Grade Point Average by adding subjects, credit hours, and course component marks.
-* 📈 **CGPA Calculator:** Easily calculate your Cumulative GPA by entering your previous CGPA and completed credit hours.
-* 📊 **Grade Point Reference Guide:** Built-in grading scale chart showing percentage ranges, letter grades, and corresponding grade points.
-* 📚 **Academic Records Tracker:** Store and view previous semester achievements chronologically inside the app.
-* 🎨 **Clean & Adaptive UI:** Native Android user interface built with Material Design guidelines, complete with System Default/Dark Mode support.
-* ⚡ **Fast & Offline:** Lightweight and instantly computes grades offline without requiring server connectivity.
+### 🧮 1. Semester GPA (SGPA) Calculation
+Enter course names, credit hours, and obtain instant GPA calculations. The app automatically multiplies grade points by credit hours to give you an exact semester average.
+
+### 📝 2. Course Assessment Component Breakdown
+Divide course marks into specific assessment components:
+* Quizzes & Assignments
+* Midterm Exams
+* Final Written / Practical Exams
+* Total Weighted Percentage
+
+### 📈 3. CGPA Calculator
+Easily find your overall Cumulative GPA. Simply enter your previous CGPA, total credit hours completed so far, and your current semester GPA to get an updated overall grade point average.
+
+### 📚 4. Saved Academic Records
+Keep track of your academic progression. View past calculated semester results and saved grade cards chronologically within the app's record history screen.
+
+### 📊 5. Grading Reference Table
+A built-in reference menu displaying percentage bands, letter grades (A, A-, B+, B, C, D, F), and corresponding grade points (4.00 scale) so you always know where you stand.
+
+### 🎨 6. Modern & Responsive Interface
+Built according to Google Material Design standards. Features clean typography, intuitive input forms, clear action buttons, and dark mode theme options.
 
 ---
 
 ## 🛠️ Tech Stack & Requirements
 
-| Specification | Technology / Version |
+| Component | Detail |
 | :--- | :--- |
-| **Language** | Kotlin |
-| **IDE** | Android Studio |
-| **Minimum SDK** | API 24 (Android 7.0 Nougat) |
-| **Target SDK** | API 34+ |
+| **Programming Language** | Kotlin |
+| **Development Environment** | Android Studio |
+| **User Interface** | XML / Material Design Components |
+| **Minimum Android Version** | Android 7.0 (API Level 24) |
+| **Target SDK Version** | Android 14 (API Level 34) |
 | **Build System** | Gradle |
-| **Design System** | Material Design / XML Layouts |
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Install and Run
 
-### Prerequisites
+### Option A: Clone & Build via Android Studio
 
-* **Android Studio** (Hedgehog or newer recommended)
-* **JDK:** 17 or higher
-* Android Device or Emulator running Android 7.0+
-
-### Installation Steps
-
-1. **Clone the repository:**
+1. **Clone this repository to your local machine:**
    ```bash
    git clone [https://github.com/MUdevelops/GPA-Calculator-Android.git](https://github.com/MUdevelops/GPA-Calculator-Android.git)
-
