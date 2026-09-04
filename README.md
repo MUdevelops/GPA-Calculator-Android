@@ -66,4 +66,75 @@ Computer Science Student | Android Developer | Web Developer
 ## 📄 License
 
 This project is created for educational and personal use.
+<div align="center">
+
+# 🎓 GPA Calculator Android
+
+**A modern, intuitive, and feature-packed Android application for calculating SGPA, CGPA, and managing academic performance history.**
+
+Based on the official web platform **[GPA786](https://gpa786.com)**.
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9%2B-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![Android SDK](https://img.shields.io/badge/Android%20SDK-24%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com)
+[![Platform](https://img.shields.io/badge/Platform-Android-3498DB?style=for-the-badge&logo=android)](https://github.com/MUdevelops/GPA-Calculator-Android)
+
+</div>
+
+---
+
+## 📱 App Screenshots
+
+<div align="center">
+
+| Splash Screen | Main Dashboard | Semester Result |
+| :-: | :-: | :-: |
+| <img src="screenshots/splash_screen.png" width="220" alt="Splash Screen"/> | <img src="screenshots/main_dashboard.png" width="220" alt="Main Dashboard"/> | <img src="screenshots/result.png" width="220" alt="Result"/> |
+
+| CGPA Calculator | Academic Records | Grade Point Scale | Settings & Profile |
+| :-: | :-: | :-: | :-: |
+| <img src="screenshots/cgpa_calculate.png" width="190" alt="CGPA Calculate"/> | <img src="screenshots/record.png" width="190" alt="Academic Records"/> | <img src="screenshots/grade_point.png" width="190" alt="Grade Point Scale"/> | <img src="screenshots/profile.png" width="190" alt="Profile Settings"/> |
+
+</div>
+
+> **Note:** Place your image files inside a `screenshots/` directory in your root project folder and rename them accordingly (e.g., `splash_screen.png`, `main_dashboard.png`, `result.png`, `cgpa_calculate.png`, `record.png`, `grade_point.png`, `profile.png`).
+
+---
+
+## ✨ Features
+
+* 🧮 **SGPA Calculation:** Compute Semester Grade Point Average by adding subjects, credit hours, and course component marks.
+* 📈 **CGPA Calculator:** Easily calculate your Cumulative GPA by entering your previous CGPA and completed credit hours.
+* 📊 **Grade Point Reference Guide:** Built-in grading scale chart showing percentage ranges, letter grades, and corresponding grade points.
+* 📚 **Academic Records Tracker:** Store and view previous semester achievements chronologically inside the app.
+* 🎨 **Clean & Adaptive UI:** Native Android user interface built with Material Design guidelines, complete with System Default/Dark Mode support.
+* ⚡ **Fast & Offline:** Lightweight and instantly computes grades offline without requiring server connectivity.
+
+---
+
+## 🛠️ Tech Stack & Requirements
+
+| Specification | Technology / Version |
+| :--- | :--- |
+| **Language** | Kotlin |
+| **IDE** | Android Studio |
+| **Minimum SDK** | API 24 (Android 7.0 Nougat) |
+| **Target SDK** | API 34+ |
+| **Build System** | Gradle |
+| **Design System** | Material Design / XML Layouts |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* **Android Studio** (Hedgehog or newer recommended)
+* **JDK:** 17 or higher
+* Android Device or Emulator running Android 7.0+
+
+### Installation Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/MUdevelops/GPA-Calculator-Android.git](https://github.com/MUdevelops/GPA-Calculator-Android.git)
 
